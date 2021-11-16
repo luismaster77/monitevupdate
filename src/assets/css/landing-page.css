@@ -837,9 +837,7 @@ a:focus, a:active {
 
 .logo-container .logo{
     overflow: hidden;
-    border-radius: 50%;
-    border: 1px solid #333333;
-    width: 50px; 
+    width: 30%; 
     float: left;
 }
 
@@ -1525,6 +1523,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#de8e0009', e
     border-top: 10px solid rgba(0,0,0,0);
     right: -9px;
 }
+.bg-black{
+    color: dimgray;
+}
 
 @media (max-width:768px){
     .fixed-plugin{
@@ -1692,5 +1693,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#de8e0009', e
 @media (min-width: 768px){
     .landing-page .navbar-top{
         padding-top: 10px;
+        background-color: gainsboro;
     }
 }
